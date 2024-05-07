@@ -1,2 +1,4 @@
 # Tributo-a-SNES
 Este proyecto es un tributo a la consola Super Nintendo, una de las más icónicas y queridas de la historia de los videojuegos. En este sitio web, encontrarás información sobre la historia de la Super Nintendo, sus juegos más destacados, aspectos técnicos, piezas de arte y cómo contactarme. ¡Explora y redescubre la magia de esta consola clásica!
+
+Este proyecto es un tributo a la consola Super Nintendo, construido utilizando tecnologías web como HTML5, CSS y JavaScript. Estoy utilizando este proyecto como una oportunidad para practicar mis habilidades de desarrollo web y familiarizarme con estas tecnologías clave. A través de este proyecto, estoy explorando diferentes conceptos y técnicas mientras rindo homenaje a una de mis consolas favoritas. ¡Únete a mí en este viaje de aprendizaje y nostalgia!
