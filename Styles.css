@@ -1,0 +1,141 @@
+/* Estilos para el pop-up */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 9999;
+    text-align: center;
+    color: white;
+    font-family: "Super Nintendo", Arial, sans-serif;
+}
+
+.popup p {
+    margin-bottom: 20px;
+}
+
+.popup button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: #cccccc;
+}
+
+/* Estilos para el video */
+#myVideo {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    z-index: 9999; /* Asegura que el video esté por encima de todo lo demás */
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el banner */
+.banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.banner h1 {
+    margin: 0;
+}
+
+/* Estilos para el menú */
+.menu {
+    background-color: #555;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: #777;
+}
+
+/* Estilos para el contenido */
+.content {
+    padding: 20px;
+}
+
+.content section {
+    margin-bottom: 40px;
+}
+
+.content h2 {
+    color: #333;
+}
+
+/* Estilos para el banner */
+.banner {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+/* Estilos para la ampliación al pasar el mouse */
+.carousel img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
